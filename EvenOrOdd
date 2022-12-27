@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args)
+    {
+        int num,n=0;
+        System.out.println("Enter num= ");
+        Scanner obj= new Scanner(System.in);
+        num= obj.nextInt();
+       while(n>=0) 
+       {
+           if (n % 2 == 0)
+           {
+               System.out.println("Even number");
+               break;
+           }
+           else
+           {
+               System.out.println("odd number");
+               break;
+           }
+       }
+    }
+}
