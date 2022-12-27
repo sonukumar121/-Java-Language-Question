@@ -1,1 +1,18 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args)
+    {
+       int pwd;
+        System.out.println("Enter your pasword= ");
+        Scanner obj= new Scanner(System.in);
+        pwd= obj.nextInt();
+        if(pwd==1234)
+        {
 
+            System.out.println("Welcome");
+
+        }
+            else
+            System.out.println("sorry! Wrong Pasword");
+    }
+}
